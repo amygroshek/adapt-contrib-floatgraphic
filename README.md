@@ -1,7 +1,7 @@
 # adapt-contrib-floatgraphic
 
 
-This component is a fork of `adapt-contrib-graphic` that presents a single image that is floated to the right or left depending upon ltr or rtl.
+This component is a fork of `adapt-contrib-graphic` that presents a single image that is floated to the right or left depending upon ltr or rtl. The essential strings loaded into the template have not changed so the graphic component documentation should still be helpful to some extent.
 
 ---  
 
