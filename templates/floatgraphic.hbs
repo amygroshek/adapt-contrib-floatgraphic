@@ -1,0 +1,9 @@
+<div class="floatgraphic-inner component-inner" role="region" aria-label="{{_globals._components._graphic.ariaRegion}}">
+  <div class="floatgraphic-widget component-widget{{#if _graphic.attribution}} floatgraphic-widget-attribution{{/if}}">
+    {{#if _graphic.attribution}}
+      <div class="floatgraphic-caption">{{{_graphic.attribution}}}</div>
+    {{/if}}
+    <img src="{{_graphic.large}}" data-large="{{_graphic.large}}" data-small="{{_graphic.small}}"{{#if _graphic.alt}} aria-label="{{_graphic.alt}}" tabindex="0"{{else}} class="a11y-ignore" aria-hidden="true" tabindex="-1"{{/if}}/>
+  </div>
+    {{> component this}}
+</div>
